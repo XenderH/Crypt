@@ -24,9 +24,10 @@ Partial Class Menu_Encrypt
     Private Sub InitializeComponent()
         Me.Encryption_Encrypt_Help = New System.Windows.Forms.TextBox()
         Me.Encryption_Encrypt_Enter = New System.Windows.Forms.Button()
-        Me.Encryption_Encrypt_Select = New System.Windows.Forms.ComboBox()
+        Me.Encryption_Encrypted_Select = New System.Windows.Forms.ComboBox()
         Me.Encryption_Encrypted_Output = New System.Windows.Forms.TextBox()
         Me.Encryption_Encrypted_Input = New System.Windows.Forms.TextBox()
+        Me.Encryption_Encrypted_Search = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Encryption_Encrypt_Help
@@ -40,22 +41,22 @@ Partial Class Menu_Encrypt
         '
         'Encryption_Encrypt_Enter
         '
-        Me.Encryption_Encrypt_Enter.Location = New System.Drawing.Point(12, 38)
+        Me.Encryption_Encrypt_Enter.Location = New System.Drawing.Point(182, 39)
         Me.Encryption_Encrypt_Enter.Name = "Encryption_Encrypt_Enter"
-        Me.Encryption_Encrypt_Enter.Size = New System.Drawing.Size(75, 23)
+        Me.Encryption_Encrypt_Enter.Size = New System.Drawing.Size(163, 23)
         Me.Encryption_Encrypt_Enter.TabIndex = 1
         Me.Encryption_Encrypt_Enter.Text = "Encrypt"
         Me.Encryption_Encrypt_Enter.UseVisualStyleBackColor = True
         '
-        'Encryption_Encrypt_Select
+        'Encryption_Encrypted_Select
         '
-        Me.Encryption_Encrypt_Select.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Encryption_Encrypt_Select.FormattingEnabled = True
-        Me.Encryption_Encrypt_Select.Items.AddRange(New Object() {"Caesar Cipher", "Vigenère Cipher", "One Time Pad", "R.S.A"})
-        Me.Encryption_Encrypt_Select.Location = New System.Drawing.Point(118, 12)
-        Me.Encryption_Encrypt_Select.Name = "Encryption_Encrypt_Select"
-        Me.Encryption_Encrypt_Select.Size = New System.Drawing.Size(121, 21)
-        Me.Encryption_Encrypt_Select.TabIndex = 2
+        Me.Encryption_Encrypted_Select.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Encryption_Encrypted_Select.FormattingEnabled = True
+        Me.Encryption_Encrypted_Select.Items.AddRange(New Object() {"Caesar Cipher", "Vigenère Cipher", "One Time Pad", "R.S.A"})
+        Me.Encryption_Encrypted_Select.Location = New System.Drawing.Point(118, 12)
+        Me.Encryption_Encrypted_Select.Name = "Encryption_Encrypted_Select"
+        Me.Encryption_Encrypted_Select.Size = New System.Drawing.Size(121, 21)
+        Me.Encryption_Encrypted_Select.TabIndex = 2
         '
         'Encryption_Encrypted_Output
         '
@@ -71,14 +72,24 @@ Partial Class Menu_Encrypt
         Me.Encryption_Encrypted_Input.Size = New System.Drawing.Size(100, 20)
         Me.Encryption_Encrypted_Input.TabIndex = 4
         '
+        'Encryption_Encrypted_Search
+        '
+        Me.Encryption_Encrypted_Search.Location = New System.Drawing.Point(12, 38)
+        Me.Encryption_Encrypted_Search.Name = "Encryption_Encrypted_Search"
+        Me.Encryption_Encrypted_Search.Size = New System.Drawing.Size(164, 23)
+        Me.Encryption_Encrypted_Search.TabIndex = 5
+        Me.Encryption_Encrypted_Search.Text = "Search"
+        Me.Encryption_Encrypted_Search.UseVisualStyleBackColor = True
+        '
         'Menu_Encrypt
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(357, 361)
+        Me.Controls.Add(Me.Encryption_Encrypted_Search)
         Me.Controls.Add(Me.Encryption_Encrypted_Input)
         Me.Controls.Add(Me.Encryption_Encrypted_Output)
-        Me.Controls.Add(Me.Encryption_Encrypt_Select)
+        Me.Controls.Add(Me.Encryption_Encrypted_Select)
         Me.Controls.Add(Me.Encryption_Encrypt_Enter)
         Me.Controls.Add(Me.Encryption_Encrypt_Help)
         Me.Name = "Menu_Encrypt"
@@ -90,7 +101,8 @@ Partial Class Menu_Encrypt
 
     Friend WithEvents Encryption_Encrypt_Help As TextBox
     Friend WithEvents Encryption_Encrypt_Enter As Button
-    Friend WithEvents Encryption_Encrypt_Select As ComboBox
+    Friend WithEvents Encryption_Encrypted_Select As ComboBox
     Friend WithEvents Encryption_Encrypted_Output As TextBox
     Friend WithEvents Encryption_Encrypted_Input As TextBox
+    Friend WithEvents Encryption_Encrypted_Search As Button
 End Class
