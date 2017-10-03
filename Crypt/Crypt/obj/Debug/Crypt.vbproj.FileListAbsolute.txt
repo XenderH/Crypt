@@ -21,4 +21,4 @@ C:\Users\8AHA1612\AppData\Local\Temporary Projects\Crypt\obj\Debug\Crypt.pdb
 \\moriarty\home\18\8AHA1612\Crypt\Crypt\obj\Debug\Crypt.exe
 \\moriarty\home\18\8AHA1612\Crypt\Crypt\obj\Debug\Crypt.xml
 \\moriarty\home\18\8AHA1612\Crypt\Crypt\obj\Debug\Crypt.pdb
-\\moriarty\home\18\8AHA1612\Crypt\Crypt\obj\Debug\Crypt.Menu_Encrypt.resources
+\\moriarty\home\18\8AHA1612\Crypt\Crypt\obj\Debug\Crypt.Menu_Crypt.resources

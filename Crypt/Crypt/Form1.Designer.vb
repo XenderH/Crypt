@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Menu_Encrypt
+Partial Class Menu_Crypt
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -81,7 +81,7 @@ Partial Class Menu_Encrypt
         Me.Encryption_Encrypted_Search.Text = "Search"
         Me.Encryption_Encrypted_Search.UseVisualStyleBackColor = True
         '
-        'Menu_Encrypt
+        'Menu_Crypt
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -92,17 +92,16 @@ Partial Class Menu_Encrypt
         Me.Controls.Add(Me.Encryption_Encrypted_Select)
         Me.Controls.Add(Me.Encryption_Encrypt_Enter)
         Me.Controls.Add(Me.Encryption_Encrypt_Help)
-        Me.Name = "Menu_Encrypt"
+        Me.Name = "Menu_Crypt"
         Me.Text = "Encryption"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Encryption_Encrypt_Help As TextBox
     Friend WithEvents Encryption_Encrypt_Enter As Button
     Friend WithEvents Encryption_Encrypted_Select As ComboBox
     Friend WithEvents Encryption_Encrypted_Output As TextBox
     Friend WithEvents Encryption_Encrypted_Input As TextBox
     Friend WithEvents Encryption_Encrypted_Search As Button
+    Public WithEvents Encryption_Encrypt_Help As TextBox
 End Class
